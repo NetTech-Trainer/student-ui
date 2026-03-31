@@ -47,10 +47,10 @@ java -version
 
 ```bash
 cd /tmp
-wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.85/bin/apache-tomcat-9.0.85.tar.gz
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.116/bin/apache-tomcat-9.0.116.tar.gz
 
 sudo mkdir /opt/tomcat
-sudo tar -xvzf apache-tomcat-9.0.85.tar.gz -C /opt/tomcat --strip-components=1
+sudo tar -xvzf apache-tomcat-9.0.116.tar.gz -C /opt/tomcat --strip-components=1
 ```
 
 Set permissions:
