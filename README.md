@@ -44,6 +44,10 @@ java -version
 ---
 
 # 🐱 Step 2: Install Tomcat
+add user
+```bash
+sudo useradd -r -m -U -d /opt/tomcat -s /bin/false tomcat
+```
 
 ```bash
 cd /tmp
